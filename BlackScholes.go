@@ -38,8 +38,3 @@ func BlackScholes(CallPutFlag string, S, X, T, r, v float64) float64 {
     return X * math.Exp(-r * T) * CND(-d2) - S * CND(-d1)
   }
 }
-
-func main() {
-  result := BlackScholes("c", 60, 65, .25, .08, .3)
-  fmt.Println(result)
-}
