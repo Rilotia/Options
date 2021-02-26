@@ -1,3 +1,4 @@
+//From Espen Haug, The Complete Guide To Option Pricing Formulas (2007)
 package main
 
 import (
